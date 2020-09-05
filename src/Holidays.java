@@ -2,38 +2,39 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 public class Holidays {
-    public static final String[] HOLIDAY_NAMES = {"New Year's Day", 
-                                                "Martin Luther King Jr. Day",
-                                                "Chinese New Year",
-                                                "Valentine's Day",
-                                                "Presidents' Day",
-                                                "Holi",
-                                                "Good Friday",
-                                                "Earth Day",
-                                                "Cinco de Mayo",
-                                                "Memorial Day",
-                                                "Flag Day",
-                                                "Juneteenth",
-                                                "Independence Day",
-                                                "Bastille Day",
-                                                "Hijra - Islamic New Year",
-                                                "Labor Day",
-                                                "Rosh Hashana",
-                                                "Yom Kippur",
-                                                "Sukkot",
-                                                "National Cat Day",
-                                                "Halloween",
-                                                "Veterans Day",
-                                                "Diwali",
-                                                "Thanksgiving",
-                                                "Christmas Day"};
-    public static final int[][] HOLIDAY_DATES = {{1, 1}, {1, 20}, {1, 25}, {2, 14}, 
-                                           {2, 17}, {3, 9}, {4, 10}, {4, 22}, 
-                                           {5, 5}, {5, 25}, {6, 14}, {6, 19}, 
-                                           {7, 4}, {7, 14}, {8, 21}, {9, 7}, 
-                                           {9, 18}, {9, 27}, {10, 9}, {10, 29}, 
-                                           {10, 31}, {11, 11}, {11, 14}, 
-                                           {11, 26}, {12, 25} };
+    public static final String[] HOLIDAY_NAMES = {
+        "New Year's Day", 
+        "Martin Luther King Jr. Day",
+        "Chinese New Year",
+        "Valentine's Day",
+        "Presidents' Day",
+        "Holi",
+        "Good Friday",
+        "Earth Day",
+        "Cinco de Mayo",
+        "Memorial Day",
+        "Flag Day",
+        "Juneteenth",
+        "Independence Day",
+        "Bastille Day",
+        "Hijra - Islamic New Year",
+        "Labor Day",
+        "Rosh Hashana",
+        "Yom Kippur",
+        "Sukkot",
+        "National Cat Day",
+        "Halloween",
+        "Veterans Day",
+        "Diwali",
+        "Thanksgiving",
+        "Christmas Day"
+    };
+    public static final int[][] HOLIDAY_DATES = {
+        {1, 1}, {1, 20}, {1, 25}, {2, 14}, {2, 17}, {3, 9}, {4, 10}, {4, 22}, 
+        {5, 5}, {5, 25}, {6, 14}, {6, 19}, {7, 4}, {7, 14}, {8, 21}, {9, 7}, 
+        {9, 18}, {9, 27}, {10, 9}, {10, 29}, {10, 31}, {11, 11}, {11, 14}, 
+        {11, 26}, {12, 25} 
+    };
     
     /**
      * Setup a string that's required at the beginning of the HTML document,
