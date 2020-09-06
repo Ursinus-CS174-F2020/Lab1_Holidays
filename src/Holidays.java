@@ -85,7 +85,8 @@ public class Holidays {
     // TODO: Create a method that returns a String corresponding to a 
     // particular row of the table
     
-    // TODO: Create a method that writes all of the HTML code to a file
+    // TODO: Create a method that pieces the full HTML string together and then 
+    // writes all of the HTML code to a file
     
     public static void main(String[] args) {
         // TODO: Call the method from here that writes all of the HTML
